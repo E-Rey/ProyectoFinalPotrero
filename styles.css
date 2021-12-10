@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+body {
+    background-color: aliceblue;
+    font-family: "Karla", sans-serif;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(70, 136, 71);
+    color: #DFF0D8;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contenedor {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo {
+    max-width: 5%;
+    max-height: 5%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(197, 197, 197);
+    padding: 20px 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    float: left;
+    text-decoration: none;
+}
+
+nav a {
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+nav a:hover {
+    height: 100%;
+    text-decoration: underline;
+    color: rgb(247, 85, 120);
+}
+
+#presentacion {
+    background-image: url("/imagen/Fondo-Fiambre.jpg");
+    range: url("/imagen/Fondo") 50%;
+    min-height: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 3px;
+}
+
+#presentacion h2 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.5em;
+    padding-top: 30px;
+}
+
+#presentacion-sucursales h2 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.5em;
+    padding-top: 30px;
+}
+
+main {
+    float: left;
+    width: 70%;
+    text-align: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+main ul {
+    list-style: none;
+}
+
+main h1 {
+    text-align: center
+}
+
+.mision {
+    text-align: center;
+    width: 100%;
+    background-color: #DFF0D8;
+}
+
+.Objetivos {
+    text-align: center;
+    display: grid;
+    list-style: disc;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    background-color: rgb(70, 136, 71);
+    color: #DFF0D8;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+aside p {
+    text-align: center;
+}
+
+
+/*picadas*/
+
+.foto-picada {
+    max-width: 300px;
+    max-width: 300px;
+    display: inline-block;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    padding: 6px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.foto-picada {
+    transition: transform .6s;
+}
+
+.foto-picada:hover {
+    transform: scale(1.2);
+}
+
+.precio-picada {
+    color: #fff;
+    text-transform: uppercase;
+    background: #C51216;
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 6px;
+}
+
+.precio-picada:hover {
+    color: rgb(144, 247, 85);
+}
+
+
+/*inframe*/
+
+.mapa-contenedor {
+    flex: 0 1 auto;
+    position: relative;
+    display: flex;
+    padding-bottom: 25%;
+    margin: 15px 10px;
+    height: 0;
+    overflow: hidden;
+    box-shadow: 3px 3px 5px 3px #ccc;
+}
+
+.mapa-contenedor iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 3px 3px 5px 3px #ccc;
+}
+
+
+/*Sucursales-Contacto*/
+
+input[type=text],
+input[type=number],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+
+/*footer*/
+
+footer {
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 0, ;
+    background-color: rgb(70, 136, 71);
+    margin: 0px;
+}
+
+footer p {
+    color: #DFF0D8;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline
+}
+
+
+/*GALERIA QUESOS*/
+
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria h2 {
+    text-align: center;
+}
+
+.galeria li {
+    margin: 5px;
+}
